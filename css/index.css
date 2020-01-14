@@ -7,9 +7,13 @@
 
 html, body {
     height: 100%;
+    overflow: hidden;
+    background-color: #000;
 }
 /* 首页 */
 .firstPage {
+    display: none;
+
     width: 100%;
     height: 100%;
     background-color: #000;
@@ -38,7 +42,7 @@ html, body {
     cursor: pointer;
     border: 1px solid transparent;
     border-radius: 50%;
-    transition: all 1s linear;
+    transition: all .8s linear;
 }
 .firstPage > .enterBtn img:hover {
     border: 1px solid #32cdcc;

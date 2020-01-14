@@ -1,0 +1,39 @@
+@keyframes welcome-run {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.welcome-run {
+    animation: welcome-run 2s linear;
+}
+
+@keyframes title-run {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.title-run, .footer-run {
+    animation: title-run 1s linear;
+}
+
+@keyframes enterBtn-run {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.enterBtn-run {
+    animation: enterBtn-run 1s linear;
+}
