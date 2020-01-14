@@ -1,11 +1,72 @@
 * {
     margin: 0px;
     padding: 0px;
-    list-style: none;
     text-decoration: none;
+    list-style: none;
 }
 
-h1 {
+html, body {
+    height: 100%;
+}
+/* 首页 */
+.firstPage {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    transition: all 1s linear;
+}
+/* 首页标题 */
+.firstPage > .title {
+    color: #32cdcc;
+    width: 100%;
     text-align: center;
-    color: red;
+    font-size: 50px;
+    font-weight: lighter;
+    padding: 20px 0px;
+    letter-spacing: 5px;
+}
+/* 首页进入软二之家按钮 */
+.firstPage > .enterBtn {
+    width: 100%;
+    padding: 80px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+.firstPage > .enterBtn > img {
+    width: 280px;
+    height: 280px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    transition: all 1s linear;
+}
+.firstPage > .enterBtn > img:hover {
+    border: 1px solid #32cdcc;
+    box-shadow:0px 0px 10px 0px #fff,
+               0px 0px 30px 1px #32cdcc,
+               0px 0px 10px 0px #32cdca;
+    transform: scale(1.1, 1.1);
+}
+/* 首页底部 */
+.firstPage > .footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px 0px 0px;
+}
+.firstPage > .footer > ul {
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+.firstPage > .footer > ul > li {
+    color: #32cdcc;
+    font-size: 25px;
+}
+/* 首页版本说明 */
+.firstPage .version {
+    color: #32cdcc;
+    font-size: 14px;
+    padding: 70px 100px 0px 0px;
+    text-align: right;
 }
