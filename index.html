@@ -16,6 +16,7 @@
         <div class="enterBtn">
             <img src="./src/enterBtn.png" class="enterBtn-run" title="进入软二之家">
         </div>
+        <div class="load">正在加载资源...</div>
         <div class="footer">
             <ul>
                 <li class="footer-run">00000110</li>
@@ -43,11 +44,70 @@
                 <dt>班费支出</dt>
             </dl>
         </div>
+        <div class="mainCon">
+
+
+            <!-- 成员概况 -->
+            <div class="classCondition">
+                <!-- 成员表格 -->
+                <div class="students">
+                    <div class="tableTitle">成员列表(48)</div>
+                    <table>
+                        <tr>
+                            <th>学号</th>
+                            <th>姓名</th>
+                            <th>性别</th>
+                            <th>职位</th>
+                            <th>宿舍号</th>
+                            <th>手机号</th>
+                        </tr>
+                        <tr class="hide">
+                            <td>201710800043</td>
+                            <td>吴浩</td>
+                            <td>男</td>
+                            <td>班长</td>
+                            <td>5-504</td>
+                            <td>13040235335</td>
+                        </tr>
+                    </table>
+                    <div class="pageBtn">
+                        <div class="page1 active">1</div>
+                        <div class="page2">2</div>
+                        <div class="page3">3</div>
+                    </div>
+                </div>
+                <!-- 成员分析 -->
+                <div class="analysis">
+                    <!-- 男女比例图(饼图) -->
+                    <div class="proportion"></div>
+                    <!-- 成员分布图(柱状图) -->
+                    <div class="distribution"></div>
+                    
+                </div>
+            </div>
+
+
+            <!-- 学习概况 -->
+            <div class="studyCondition hide"></div>
+            <!-- 班级通知 -->
+            <div class="classInfo hide"></div>
+            <!-- 考试安排 -->
+            <div class="examAnsign hide"></div>
+            <!-- 班级荣誉 -->
+            <div class="classGlory hide"></div>
+            <!-- 集体活动 -->
+            <div class="activity hide"></div>
+            <!-- 班费支出 -->
+            <div class="classConsume hide"></div>
+        </div>
     </div>
 
     <script src="./js/jquery.min.js"></script>
     <script src="./js/echarts.js"></script>
+    <script src="./js/china.js"></script>
+    <script src="./js/stuData.js"></script>
     <script src="./js/index.js"></script>
+    <script src="./js/ClassCondition.js"></script>
     <script src="./js/secPage.js"></script>
 </body>
 </html>

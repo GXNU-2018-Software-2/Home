@@ -14,7 +14,7 @@
     padding: 8px 0px;
     width: 80%;
     margin: 0 auto;
-    color: #32cdcc;
+    color: #fff;
     font-size: 12px;
     font-weight: 100;
 }
@@ -34,8 +34,8 @@
     justify-content: space-between;
 }
 .secPage > .nav > dl > dt {
-    padding: 0px 28px;
-    color: #32cdcc;
+    padding: 0px 20px;
+    color: #fff;
     height: 50px;
     line-height: 50px;
     font-weight: 700;
@@ -47,6 +47,98 @@
     transition: all .3s linear;
 }
 .secPage > .nav > dl > dt:hover {
-    border: 1px solid #32cdcc;
+    border: 1px solid #fff;
+}
+/* 第二页主要内容区 */
+.secPage > .mainCon {
+    width: 80%;
+    margin: 0 auto;
+    height: 83%;
+    /* background-color: red; */
+    padding: 5px 0px 0px 0px;
+}
+/* 成员概况 */
+.secPage > .mainCon > .classCondition {
+    width: 100%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+}
+/* 成员概况 > 成员表格 */
+.secPage > .mainCon > .classCondition > .students {
+    width: 59.5%;
+    height: 100%;
+    /* background-color: red; */
+}
+.secPage > .mainCon > .classCondition > .students > .tableTitle {
+    height: auto;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: left;
+}
+.secPage > .mainCon > .classCondition > .students > table {
+    width: 100%;
+}
+.secPage > .mainCon > .classCondition > .students > table th, td {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 4px;
+}
+.secPage > .mainCon > .classCondition > .students > table th {
+    font-weight: 500 !important;
 }
 
+/* 分页按钮 */
+.secPage > .mainCon > .classCondition > .students > .pageBtn {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.secPage > .mainCon > .classCondition > .students > .pageBtn > div {
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.secPage > .mainCon > .classCondition > .students > .pageBtn > div:hover {
+    border: 1px solid #fff;
+}
+
+/* 成员概况 > 成员分析 */
+.secPage > .mainCon > .classCondition > .analysis {
+    width: 40%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+/* 成员概况 > 成员分析 > 成员分布图 */
+.secPage > .mainCon > .classCondition > .analysis > .distribution {
+    width: 100%;
+    height: 60%;
+    /* background-color: red; */
+}
+.secPage > .mainCon > .classCondition > .analysis > .proportion {
+    width: 100%;
+    height: 34.5%;
+    /* background-color: green; */
+}
+
+/* 成员概况 > 成员分析 > 男女比例图 */

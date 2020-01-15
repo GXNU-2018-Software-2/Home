@@ -4,3 +4,8 @@ $('.firstPage .enterBtn img').on('click', function () {
         $('.secPage .welcome').addClass('welcome-run');
     });
 })
+
+// 处理加载提醒
+window.onload = function () {
+    $('.firstPage .load').text('加载完成').css('opacity', 0);
+}
