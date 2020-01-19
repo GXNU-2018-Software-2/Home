@@ -27,8 +27,14 @@ function renderTable (page) {
     })
 }
 
+// 获取男女比例数据
+function getSexProportion () {
+    return sexData;
+}
+
 // 初始化男女比例图
 function initSexProportion () {
+    var data = getSexProportion();
     var sexProportion = echarts.init($('.secPage .analysis .proportion').get(0));
     var option = {
         title: {
@@ -72,22 +78,22 @@ function initSexProportion () {
                         show: false
                     }
                 },
-                data: [
-                    {value: 335, name: '男'},
-                    {value: 310, name: '女'},
-                ]
+                data: data
             }
         ]
     };    
     sexProportion.setOption(option);
+    return sexProportion;
+}
+// 获取成员分布地区数据
+function getDistributionData () {
+    return stuDistributionData;
 }
 
 // 初始化成员分布图
 function initDistribution () {
-    var mapData = [
-        {name: '广西', value: [108.00, 23.99, 20]},
-        {name: '江苏', value: [119.38, 32.94, 1]}
-    ]
+
+    var mapData = getDistributionData();
 
     var distributionChart = echarts.init($('.secPage .analysis .distribution').get(0));
     var option = {
@@ -138,6 +144,7 @@ function initDistribution () {
         ]
     }
     distributionChart.setOption(option);
+    return distributionChart;
 }
 
 
@@ -146,7 +153,11 @@ function initClassCondition () {
     // 初始化表格数据
     renderTable(0);
     // 初始化饼图
-    initSexProportion();
+    var sexProporChart = initSexProportion();
     // 初始化柱状图
-    initDistribution();
+    var distributionChart = initDistribution();
+    window.onresize = function () {
+        sexProporChart.resize();
+        distributionChart.resize();
+    }
 }

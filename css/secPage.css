@@ -56,6 +56,7 @@
     height: 83%;
     /* background-color: red; */
     padding: 5px 0px 0px 0px;
+    /* border-top: 1px solid #fff; */
 }
 /* 成员概况 */
 .secPage > .mainCon > .classCondition {
@@ -135,10 +136,50 @@
     height: 60%;
     /* background-color: red; */
 }
+/* 成员概况 > 成员分析 > 男女比例图 */
 .secPage > .mainCon > .classCondition > .analysis > .proportion {
     width: 100%;
     height: 34.5%;
     /* background-color: green; */
 }
 
-/* 成员概况 > 成员分析 > 男女比例图 */
+/* 班级通知 */
+.secPage > .mainCon > .classInfo {
+    height: 100%;
+}
+.secPage > .mainCon > .classInfo > ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px 0px;
+}
+.secPage > .mainCon > .classInfo > ul > li {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 140px;
+}
+.secPage > .mainCon > .classInfo > ul > li > .con {
+    width: 85%;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.secPage > .mainCon > .classInfo > ul > li > .con:hover {
+    color: #f40;
+}
+.secPage > .mainCon > .classInfo > ul > li > .time {
+    font-size: 14px;
+    color: #888;
+    width: 10%;
+    height: 20px;
+    line-height: 20px;
+}

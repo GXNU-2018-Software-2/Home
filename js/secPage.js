@@ -1,13 +1,19 @@
 
 // 导航栏点击事件
 $('.secPage dl').children().on('click', function (e) {
+    // 导航栏状态
     $('.secPage dl .active').removeClass('active');
     $(e.target).addClass('active');
-    initClassCondition();
-    console.log('over');
-})
 
+    // 显示页面的状态
+    $('.secPage .mainCon').find('.show').hide().removeClass('show').end()
+    .children().eq($(e.target).index()).show().addClass('show').removeClass('hide');
+})
+// 初始化成员概况
 initClassCondition();
+
+// 初始化班级通知
+initClassInfo();
 
 
 
