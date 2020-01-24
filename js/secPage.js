@@ -15,6 +15,9 @@ initClassCondition();
 // 初始化班级通知
 initClassInfo();
 
+// 初始化考试安排
+initExamAnsign();
+
 
 
 

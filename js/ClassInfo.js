@@ -7,7 +7,7 @@ function getClassInfoData () {
 function renderClassInfo (data) {
     data.forEach (function (ele, index) {
         $('.secPage .mainCon .classInfo .template').clone().removeClass('template')
-        .children().eq(0).prop('href', '' + ele.link).text('' + (index + 1) + '.  ' + ele.title).end()
+        .children().eq(0).prop('href', '' + ele.link).text('' + (index + 1) + '.  ' + ele.content).end()
         .eq(1).text('' + ele.time).end().end().appendTo('.secPage .mainCon .classInfo ul');
     });
 }

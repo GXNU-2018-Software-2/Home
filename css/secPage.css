@@ -162,6 +162,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 140px;
+    margin-bottom: 5px;
 }
 .secPage > .mainCon > .classInfo > ul > li > .con {
     width: 85%;
@@ -177,9 +178,46 @@
     color: #f40;
 }
 .secPage > .mainCon > .classInfo > ul > li > .time {
-    font-size: 14px;
+    font-size: 12px;
     color: #888;
     width: 10%;
     height: 20px;
     line-height: 20px;
+}
+
+/* 考试安排 */
+.secPage > .mainCon > .examAnsign table {
+    width: 100%;
+}
+.secPage > .mainCon > .examAnsign table th, td {
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 200;
+    padding: 4px;
+}
+.secPage > .mainCon > .examAnsign table th {
+    font-weight: 550 !important;
+}
+.secPage .mainCon .examAnsign .note {
+    padding: 20px 0px;
+    width: 100%;
+    height: 10%;
+    /* line-height: 20px; */
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+}
+
+/* 班级荣誉 */
+.secPage > .mainCon > .classGlory {
+    width: 100%;
+    height: 100%;
+}
+
+/* 集体活动 */
+.secPage > .mainCon > .activity {
+    width: 100%;
+    height: 100%;
 }

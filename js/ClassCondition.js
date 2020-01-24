@@ -13,17 +13,17 @@ function getData (page) {
 // 渲染成员信息
 function renderTable (page) {
     // 清除之前的数据
-    $('.secPage .mainCon table .hide').nextAll().remove();
+    $('.secPage .mainCon .classCondition table .hide').nextAll().remove();
     var pageData = getData(page);
     pageData.forEach(function (data) {
-        $('.secPage .mainCon table .hide').clone().removeClass('hide').children()
+        $('.secPage .mainCon .classCondition table .hide').clone().removeClass('hide').children()
         .eq(0).text(data[0]).end()
         .eq(1).text(data[1]).end()
         .eq(2).text(data[2]).end()
         .eq(3).text(data[3]).end()
         .eq(4).text(data[4]).end()
         .eq(5).text(data[5]).end()
-        .end().appendTo('.secPage .mainCon table')
+        .end().appendTo('.secPage .mainCon .classCondition table')
     })
 }
 
