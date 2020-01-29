@@ -131,7 +131,6 @@ function initDistribution () {
                 coordinateSystem: 'geo',
                 hoverAnimation: true,
                 symbolSize: (val) => {
-                    console.log(val);
                     return (val[2] + 80) / 10;
                 },
                 itemStyle: {

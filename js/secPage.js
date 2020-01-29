@@ -18,6 +18,9 @@ initClassInfo();
 // 初始化考试安排
 initExamAnsign();
 
+// 初始化班费开支
+initClassConsume();
+
 
 
 

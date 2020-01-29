@@ -1,6 +1,7 @@
 .active {
     background-color: #fff;
     color: #000 !important;
+    /* font-weight: 700 !important; */
 }
 
 .hide {
@@ -15,11 +16,12 @@
     display: none !important;
 }
 
+.appear {
+    display: block !important;
+}
+
 .none {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    margin: 150px auto;
 }
 
