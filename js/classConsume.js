@@ -63,6 +63,6 @@ function renderConsumeData () {
 function initClassConsume () {
     // 调用初始化事件函数
     initClassConsumeEvent();
-
+    // 调用渲染数据函数
     renderConsumeData();
 }

@@ -21,6 +21,9 @@ initExamAnsign();
 // 初始化班费开支
 initClassConsume();
 
+// 初始化成绩概况
+initGradeCondition();
+
 
 
 
