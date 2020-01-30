@@ -337,30 +337,32 @@
 .secPage .mainCon .studyCondition .showCon div .subChoice li {
     box-sizing: border-box;
     border: 1px solid transparent;
-    width: 100px;
+    width: 80px;
     height: 30px;
     line-height: 28px;
     text-align: center;
     cursor: pointer;
     transition: all .5s;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 13px;
     border-radius: 3px;
 }
 .secPage .mainCon .studyCondition .showCon div .subChoice li:hover {
     border: 1px solid #fff;
 }
 .secPage .mainCon .studyCondition .showCon .GRADE-2019-2020 .details {
+    display: flex;
+    justify-content: space-around;
     width: 100%;
     height: calc(100% - 60px);
-    background-color: red;
-    opacity: .5;
+    /* background-color: red; */
+    /* opacity: .5; */
 }
 .secPage .mainCon .studyCondition .showCon .GRADE-2019-2020 .details .grade {
     box-sizing: border-box;
     width: 40%;
     height: 100%;
-    background-color: wheat;
+    /* background-color: wheat; */
     overflow: auto;
     padding: 0px 10px;
 }
@@ -386,6 +388,23 @@
     height: 30px;
 }
 .secPage .mainCon .studyCondition .showCon .GRADE-2019-2020 .details .grade li span {
-    width: 33.3%;
+    width: 25%;
     text-align: center;
+}
+/* 成绩图表区 */
+.secPage .mainCon .studyCondition .showCon .GRADE-2019-2020 .details .chartWrap {
+    width: 59%;
+    height: 100%;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secPage .mainCon .studyCondition .showCon .GRADE-2019-2020 .details .chartWrap .grade-countChart {
+    /* position: relative; */
+    width: 710px;
+    height: 505px;
+    /* padding: 20px; */
+    /* box-sizing: border-box; */
+    /* background-color: red; */
 }

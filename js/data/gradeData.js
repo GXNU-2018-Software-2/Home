@@ -10,179 +10,179 @@ var GRADE_2019_2020 = [
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 40
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 56
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 56
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 80
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 81
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 81
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 85
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 85
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 85
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 86
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 84
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 74
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 82
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 75
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 35
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 55
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 66
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 89
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 48
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 76
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 65
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 54
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 41
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 78
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 75
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 68
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 69
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 86
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 45
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 78
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 74
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 71
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 96
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 87
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 46
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 13
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 45
+            }, {
+                sNo: '201710800043',
+                name: '曾品一',
+                grade: 65
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 12
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 47
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 41
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 85
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
+                grade: 46
             }, {
                 sNo: '201710800043',
                 name: '吴浩',
-                grade: 90
-            }, {
-                sNo: '201710800043',
-                name: '吴浩',
-                grade: 90
+                grade: 48
             }
         ]
     }, {
