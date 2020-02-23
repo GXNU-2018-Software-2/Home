@@ -408,3 +408,15 @@
     /* box-sizing: border-box; */
     /* background-color: red; */
 }
+
+/* 其他成绩 */
+.secPage .mainCon .studyCondition .showCon .GRADE-OTHER {
+    width: 1250px;
+    height: 530px;
+    overflow: hidden;
+    padding: 30px 0px 0px 55px;
+    box-sizing: border-box;
+}
+
+
+

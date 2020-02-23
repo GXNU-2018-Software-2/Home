@@ -13,10 +13,6 @@ function renderGradeData (data, dataTime) {
     .eq(1).text('挂科率：' + data.noPassRate)
 
 
-
-
-
-
     // 渲染成绩列表
     $('.secPage .mainCon .studyCondition .showCon .' + dataTime).find('.grade .template').nextAll().remove();
     data.gradeArr.sort((a, b) => b.grade - a.grade);
@@ -27,8 +23,6 @@ function renderGradeData (data, dataTime) {
         .eq(2).text(ele.name).end()
         .eq(3).text(ele.grade).end().end().appendTo('.secPage .mainCon .studyCondition .showCon .' + dataTime + ' .grade')
     });
-
-
 
     // 渲染成绩图表
 
@@ -115,9 +109,73 @@ function renderGradeData (data, dataTime) {
     };
     // 获取dom元素
     var dom = $('.secPage .mainCon .studyCondition .showCon .' + dataTime).find('.chartWrap .grade-countChart')[0];
-    
-    renderEChart(option, dom);
 
+    renderEChart(option, dom);
+}
+
+// 渲染其他成绩
+function renderOtherGrade () {
+    var option = {
+        color: ['#3398DB'],
+        tooltip: {
+            show: true,
+            trigger: 'axis',
+            axisPointer: {            // 坐标轴指示器，坐标轴触发有效
+                type: 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+            },
+            extraCssText: 'width: auto; height: auto',
+            formatter: function (params) {
+                console.log(params, '5')
+                return params[0].axisValue + '</br>通过率: ' + params[0].data + '%';
+            },
+
+        },
+        grid: {
+            left: '3%',
+            right: '10%',
+            bottom: '3%',
+            containLabel: true
+        },
+        xAxis: [
+            {
+                type: 'category',
+                data: ['普通话', '计算机二级', '英语四级', '数学建模', '蓝桥杯', '英语竞赛', '大创项目', '网页设计大赛', '数学竞赛', '英语翻译与阅读比赛', '英语作文比赛'],
+                axisTick: {
+                    alignWithLabel: true
+                },
+                nameTextStyle: {
+                    color: '#fff'
+                },
+                axisLine: {
+                    lineStyle: {
+                        color: '#fff'
+                    }
+                }
+            }
+        ],
+        yAxis: [
+            {
+                type: 'value',
+                nameTextStyle: {color: '#fff'}, 
+                axisLine: {
+                    lineStyle: {
+                        color: '#fff'
+                    }
+                }
+            }
+        ],
+        series: [
+            {
+                name: '通过率',
+                type: 'bar',
+                barWidth: '40%',
+                data: [66, 4.3, 36.2, 17, 21.3, 21.3, 4.3, 2.1, 2.1, 2.1, 2.1]
+            }
+        ]
+    };
+    
+    var dom = $('.secPage .mainCon .studyCondition .showCon .GRADE-OTHER')[0];
+    renderEChart(option, dom)    
 }
 
 // 渲染图表
@@ -154,6 +212,9 @@ function initGradeConditionEvent () {
     // 初始化2020-2021导航条事件
 
     // 初始化2021-2022导航条事件
+
+    // 初始化其他成绩
+    renderOtherGrade();
 
 }
 
