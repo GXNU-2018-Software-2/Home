@@ -2,7 +2,7 @@ var GRADE_2019_2020 = [
     {
         sub: '数据结构',
         teacher: '陈宇文',
-        noPassRate: '--%',
+        noPassRate: '11.11% (5/45)',
         gradeArr: [
             {sNo: '201710800043', name: '吴浩', grade: 94},
             {sNo: '201812300323', name: '谭广阳', grade: 90},
@@ -42,8 +42,8 @@ var GRADE_2019_2020 = [
         ]
     }, {
         sub: '数据库',
-        teacher: '--',
-        noPassRate: '--%',
+        teacher: '何冬黎',
+        noPassRate: '11.11% (5/45)',
         gradeArr: [
             {sNo: '201710800043', name: '吴浩', grade: 79},
             {sNo: '201812300323', name: '谭广阳', grade: 80},
@@ -84,7 +84,7 @@ var GRADE_2019_2020 = [
     }, {
         sub: '数电',
         teacher: '钟文',
-        noPassRate: '--%',
+        noPassRate: '40% (18/45)',
         gradeArr: [
             {sNo: '201710800043', name: '吴浩', grade: 90},
             {sNo: '201812300323', name: '谭广阳', grade: 82},
@@ -126,7 +126,7 @@ var GRADE_2019_2020 = [
     }, {
         sub: '汇编语言',
         teacher: '陆遥',
-        noPassRate: '--%',
+        noPassRate: '25% (2/8)',
         gradeArr: [
             {sNo: '201710800043', name: '吴浩', grade: 74},
             {sNo: '201812300333', name: '邓小龙', grade: 71},
@@ -136,7 +136,7 @@ var GRADE_2019_2020 = [
     }, {
         sub: '概率论',
         teacher: '--',
-        noPassRate: '--%',
+        noPassRate: '46.15% (12/26)',
         gradeArr: [
             {sNo: '201812300323', name: '谭广阳', grade: 82},
             {sNo: '201812300324', name: '周耀美', grade: 47},
@@ -164,7 +164,7 @@ var GRADE_2019_2020 = [
     }, {
         sub: '大学物理2',
         teacher: '--',
-        noPassRate: '--%',
+        noPassRate: '45.45% (20/45)',
         gradeArr: [
             {sNo: '201812300323', name: '谭广阳', grade: 75},
             {sNo: '201812300332', name: '林传胤', grade: 66},
@@ -205,7 +205,7 @@ var GRADE_2019_2020 = [
     }, {
         sub: '体育',
         teacher: '--',
-        noPassRate: '--%',
+        noPassRate: '0%',
         gradeArr: [
             {sNo: '201812300323', name: '谭广阳', grade: 76},
             {sNo: '201812300332', name: '林传胤', grade: 88},
@@ -246,7 +246,7 @@ var GRADE_2019_2020 = [
     }, {
         sub: '马基',
         teacher: '--',
-        noPassRate: '--%',
+        noPassRate: '20.45% (9/44)',
         gradeArr: [
             {sNo: '201812300323', name: '谭广阳', grade: 80},
             {sNo: '201812300332', name: '林传胤', grade: 76},
@@ -287,7 +287,7 @@ var GRADE_2019_2020 = [
     }, {
         sub: '大学英语',
         teacher: '--',
-        noPassRate: '--%',
+        noPassRate: '6.35% (3/45)',
         gradeArr: [
             {sNo: '201812300323', name: '谭广阳', grade: 77},
             {sNo: '201812300332', name: '林传胤', grade: 88},
@@ -327,7 +327,7 @@ var GRADE_2019_2020 = [
     }, {
         sub: '计算机竞赛',
         teacher: '黄斌',
-        noPassRate: '--%',
+        noPassRate: '12.12% (4/33)',
         gradeArr: [
             {sNo: '201710800043', name: '吴浩', grade: 85},
             {sNo: '201812300323', name: '谭广阳', grade: 87},
